@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    background-color: whitesmoke;
+    height: 60px;
+    color: white;
+    padding: 5px 5px 0px 20px;
+}
+.button {
+    background-color: #4587ef;
+    color: white;
+    border: #4587ef;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    align-self: center;
+    cursor: pointer;
+}
+.introduction {
+    font-family: 'Montserrat';
+    text-align: center;
+    margin: 10px 70px 50px 70px;
+}
+h2 { color: #4587ef; }
+.photos { 
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 70px 10px 70px;
+}
+.photos .founders { padding-top: 100px;}
+.event { 
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 70px 70px 70px;
+}
+.vacancy {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Montserrat';
+    margin: 10px 70px 50px 70px;
+}
+.vacancy .open-vacancy {
+    text-align: center;
+    width: 300px;
+    border: 2px outset whitesmoke;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
